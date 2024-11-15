@@ -1,0 +1,345 @@
+2024-08-20 06:43:50,470 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 06:43:50,487 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 06:43:50,490 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 06:43:50,492 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 06:43:50,493 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 06:44:18,190 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 06:44:29,054 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 06:44:34,312 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 06:44:34,496 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 06:45:52,207 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 06:45:52,210 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 06:45:52,212 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 06:45:52,212 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 06:45:52,213 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 06:46:13,838 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 06:46:13,871 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 06:46:13,871 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 06:46:13,876 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 06:46:18,902 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 06:46:29,939 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 06:46:35,095 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 06:46:35,242 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 06:46:35,255 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 06:46:35,255 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 06:46:35,256 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 06:46:46,827 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 06:47:02,135 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 06:47:02,298 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 06:47:02,408 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63f8a9ee92c6d004ea12e2d059ccdc2f, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49361/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63f8a9ee92c6d004ea12e2d059ccdc2f
+2024-08-20 07:24:53,828 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:24:53,833 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:24:53,835 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:24:53,837 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 07:24:53,838 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 07:25:16,670 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 07:25:16,702 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:25:16,705 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:25:16,707 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:25:21,734 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 07:25:33,102 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 07:25:38,382 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 07:25:38,438 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 07:25:38,451 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:25:38,452 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:25:38,456 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:25:50,183 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 07:26:05,472 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 07:26:05,758 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 07:26:05,833 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8bc3d6250b61087534ec4f776b28ede, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54622/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8bc3d6250b61087534ec4f776b28ede
+2024-08-20 07:27:00,500 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:27:00,503 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:27:00,505 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:27:00,506 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 07:27:00,508 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 07:27:36,262 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 07:27:36,291 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:27:36,291 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:27:36,292 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:27:41,378 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 07:27:52,314 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 07:27:57,474 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 07:27:57,623 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 07:27:57,641 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 07:27:57,641 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 07:27:57,642 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 07:28:09,064 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 07:28:24,473 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 07:28:24,737 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 07:28:24,802 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75872e0a25c1d91c95b9535857582d8a, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75872e0a25c1d91c95b9535857582d8a
+2024-08-20 15:47:10,088 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:47:10,091 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:47:10,092 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:47:10,093 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 15:47:10,094 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 15:47:27,425 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:47:27,447 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:47:27,447 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:47:27,448 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:47:32,463 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:47:43,128 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 15:47:48,226 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 15:47:48,281 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 15:47:48,287 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:47:48,287 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:47:48,288 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:47:59,838 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 15:48:15,004 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 15:48:15,082 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 15:48:15,136 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15acfc1f60a5538de9b7e400960ede2d, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57995/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15acfc1f60a5538de9b7e400960ede2d
+2024-08-20 15:50:58,912 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:50:58,914 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:50:58,916 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:50:58,917 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 15:50:58,918 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 15:51:14,315 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:51:14,331 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:51:14,331 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:51:14,331 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:51:19,350 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:51:30,148 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 15:51:35,250 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 15:51:35,310 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 15:51:35,315 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:51:35,315 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:51:35,315 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:51:46,609 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 15:52:01,762 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 15:52:01,838 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 15:52:01,880 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [819c45913d5287c4c9b872de4a7141db, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58058/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 819c45913d5287c4c9b872de4a7141db
+2024-08-20 15:54:17,702 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:54:17,706 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:54:17,709 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:54:17,710 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 15:54:17,712 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 15:54:34,087 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:54:34,108 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:54:34,108 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:54:34,108 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:54:39,130 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 15:54:49,862 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 15:54:54,955 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 15:54:55,084 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 15:54:55,096 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 15:54:55,097 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 15:54:55,097 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 15:55:06,206 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 15:55:21,419 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 15:55:21,505 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 15:55:21,583 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ffd3947f3e7c975260ce53a473af6d2, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58111}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58111/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffd3947f3e7c975260ce53a473af6d2
+2024-08-20 16:49:48,220 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 16:49:48,223 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 16:49:48,225 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 16:49:48,227 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 16:49:48,228 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 16:50:06,095 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 16:50:06,116 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 16:50:06,116 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 16:50:06,116 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 16:50:11,129 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 16:50:21,705 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 16:50:26,789 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 16:50:26,851 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 16:50:26,858 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 16:50:26,858 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 16:50:26,858 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 16:50:38,084 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 16:50:53,212 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 16:50:53,290 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 16:50:53,339 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a2156339e3b90c9df1186eab640cf5c, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59318}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59318/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a2156339e3b90c9df1186eab640cf5c
+2024-08-20 17:14:48,320 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 17:14:48,323 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 17:14:48,325 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 17:14:48,326 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 17:14:48,327 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 17:15:06,322 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 17:15:06,346 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 17:15:06,347 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 17:15:06,347 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 17:15:11,363 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 17:15:21,979 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 17:15:27,049 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 17:15:27,111 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 17:15:27,117 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 17:15:27,117 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 17:15:27,118 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 17:15:38,325 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 17:15:53,479 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 17:15:53,562 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 17:15:53,616 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f0fd8b6601d7c46845c44731e5e6976, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59461/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f0fd8b6601d7c46845c44731e5e6976
+2024-08-20 18:02:42,131 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:02:42,134 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:02:42,135 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:02:42,136 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 18:02:42,137 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 18:02:57,826 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 18:02:57,850 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:02:57,850 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:02:57,851 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:03:02,861 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 18:03:13,471 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 18:03:18,563 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 18:03:18,638 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 18:03:18,645 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:03:18,645 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:03:18,646 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:03:29,950 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 18:03:45,101 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 18:03:45,192 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 18:03:45,247 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07c214f937a3b3a83f398d388387a7ea, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59699/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c214f937a3b3a83f398d388387a7ea
+2024-08-20 18:46:08,830 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:46:08,834 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:46:08,837 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:46:08,840 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 18:46:08,841 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 18:46:31,572 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 18:46:31,614 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:46:31,614 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:46:31,614 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:46:36,654 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 18:46:48,009 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 18:46:53,229 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 18:46:53,359 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 18:46:53,424 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 18:46:53,424 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 18:46:53,425 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 18:47:05,064 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 18:47:20,405 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 18:47:20,678 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 18:47:20,794 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [127ba8cd857422507973c8ced0c3a430, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 127ba8cd857422507973c8ced0c3a430
+2024-08-20 20:08:10,421 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:08:10,426 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:08:10,428 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:08:10,430 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 20:08:10,432 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 20:08:32,082 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 20:08:32,150 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:08:32,150 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:08:32,151 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:08:37,184 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 20:08:48,230 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 20:08:53,357 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 20:08:53,515 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 20:08:53,583 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:08:53,584 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:08:53,585 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:09:04,844 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 20:09:20,209 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 20:09:20,360 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 20:09:20,460 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50cdc07a583626d395d1d348702ea521, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61389/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50cdc07a583626d395d1d348702ea521
+2024-08-20 20:11:05,322 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:11:05,326 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:11:05,329 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:11:05,331 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] DRIVER is null. Instantiating it! 
+2024-08-20 20:11:05,332 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching the browser : Chrome
+2024-08-20 20:11:27,358 [INFO ] com.lao.step_definitons.Verify_CEO_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 20:11:27,438 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:11:27,438 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:11:27,440 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:11:32,478 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User should be logged on home page of OrangeHRM Appsuccessfully
+2024-08-20 20:11:43,360 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User enters the employee name as Peter Mac Anderson
+2024-08-20 20:11:48,654 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User click the search button of directory page
+2024-08-20 20:11:48,816 [INFO ] com.lao.step_definitons.Verify_Employee_Name_Step_Def [main] User can see the Employee name as {string}
+2024-08-20 20:11:48,978 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Exectuion started
+2024-08-20 20:11:48,980 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Loading the properties file
+2024-08-20 20:11:48,998 [INFO ] com.lao.step_definitons.Common_Step_Definitions [main] Checking the DRIVER is null or not
+2024-08-20 20:12:00,203 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User should be looged on home page successfully
+2024-08-20 20:12:15,445 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] User enters the employee name as Orange Test
+2024-08-20 20:12:15,578 [INFO ] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] USer clicks the view button
+2024-08-20 20:12:15,643 [ERROR] com.lao.step_definitons.Verify_Pending_Timesheets_Step_DEf [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [155e434f466ec43efc9849619be9a6d7, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/form/div[2]/div/div[1]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Rafeek\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 155e434f466ec43efc9849619be9a6d7
